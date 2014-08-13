@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    	     <!-- Refresh -->
+    		<item android:id="@+id/Upload"
+          android:title="Upload" 
+          android:icon="@android:drawable/ic_menu_save"
+          android:showAsAction="ifRoom" />
+    
+        <item android:id="@+id/ViewDropBox"
+          android:title="View"
+          android:icon="@android:drawable/ic_menu_agenda"
+          android:showAsAction="ifRoom"/>
+    
+    <!-- Location Found -->
+    <item android:id="@+id/AddNew"
+          android:title="Add New Folder"
+          android:icon="@android:drawable/ic_menu_add"
+          android:showAsAction="ifRoom" />
+    
+    <!-- Refresh -->
+    <item android:id="@+id/Undo"
+          android:title="Reload" 
+          android:icon="@android:drawable/ic_menu_revert"
+          android:showAsAction="ifRoom" />
+    
+</menu>
